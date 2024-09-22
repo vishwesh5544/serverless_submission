@@ -12,6 +12,13 @@ Solution to Graded Assignment On Serverless Architecture
 ## Assignment 1: Automated Instance Management Using AWS Lambda and Boto3
 ### Solution 1:
 ![image](https://github.com/user-attachments/assets/912fd96e-ced3-4637-8883-fa7165c59692)
+This script manages EC2 instances based on specific tags (Vish-AutoStart and Vish-AutoStop). 
+It performs the following operations:
+- **Vish-AutoStop**: Finds running instances with this tag and stops them.
+- **Vish-AutoStart**: Finds stopped instances with this tag and starts them.
+- **Instance Identification**: It identifies the instances by both their InstanceId and their Name tag (or labels them as "Unnamed Instance" if no name is present).
+- **Return Data**: The script returns the InstanceId and InstanceName of all the stopped and started instances.
+
 
 
 ## Assignment 2: Automated S3 Bucket Cleanup Using AWS Lambda and Boto3
@@ -21,7 +28,11 @@ Solution to Graded Assignment On Serverless Architecture
 
 ## Assignment 9: Archive Old Files from S3 to Glacier Using AWS Lambda and Boto3
 ### Solution 9:
-
+![image](https://github.com/user-attachments/assets/395aec1e-844b-4c9d-ad93-ce781eb2432c)
 
 ## Assignment 15: Implement a Log Cleaner for S3
 ### Solution 15:
+![image](https://github.com/user-attachments/assets/77876786-ae30-40a0-a281-3c177228901b)
+
+
+
