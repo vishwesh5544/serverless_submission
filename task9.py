@@ -8,7 +8,7 @@ s3 = boto3.client('s3')
 MONTHS_THRESHOLD = 6
 
 # S3 bucket name
-BUCKET_NAME = 'your-s3-bucket-name'
+BUCKET_NAME = 'vish-devops7'
 
 def lambda_handler(event, context):
     try:
