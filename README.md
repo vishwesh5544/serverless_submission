@@ -11,11 +11,12 @@ Solution to Graded Assignment On Serverless Architecture
 
 ## Assignment 1: Automated Instance Management Using AWS Lambda and Boto3
 ### Solution 1:
-
+![image](https://github.com/user-attachments/assets/912fd96e-ced3-4637-8883-fa7165c59692)
 
 
 ## Assignment 2: Automated S3 Bucket Cleanup Using AWS Lambda and Boto3
 ### Solution 2:
+![image](https://github.com/user-attachments/assets/9ff4672f-9df8-4a3f-a878-e02b5fc18f43)
 
 
 ## Assignment 9: Archive Old Files from S3 to Glacier Using AWS Lambda and Boto3
